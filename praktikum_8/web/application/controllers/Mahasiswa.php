@@ -7,10 +7,10 @@ class Mahasiswa extends CI_Controller{
 
         // buat objek model 1 dan nilainya
         $this->mhs1->id=1;
-        $this->mhs1->nim="0110221107";
-        $this->mhs1->nama='Daffa Bagus Radityo';
+        $this->mhs1->nim="0110221109";
+        $this->mhs1->nama='Muhammad Nur Fadillah';
         $this->mhs1->gender='L';
-        $this->mhs1->ipk=3.85;
+        $this->mhs1->ipk=3.93;
 
         $this->load->model('mahasiswa_model', 'mhs2');
 
